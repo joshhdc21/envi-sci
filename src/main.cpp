@@ -14,8 +14,8 @@
 // 1. WIFI CREDENTIALS
 // =====================================
 
-#define WIFI_SSID "Admin2F"
-#define WIFI_PASSWORD ";T@dUminP2F"
+#define WIFI_SSID "COEfaculty"
+#define WIFI_PASSWORD "UR54S9De"
 
 // =====================================
 // 2. FIREBASE CONFIGURATION
@@ -26,7 +26,7 @@
 #define DATABASE_URL \
 "https://envi-sci-project-default-rtdb.asia-southeast1.firebasedatabase.app"
 
-#define FLOOR_PATH "/sensors/floor1"
+#define FLOOR_PATH "/sensors/floor2"
 
 // Firebase Authentication
 const char* SIGNUP_URL =
@@ -50,8 +50,8 @@ unsigned long tokenExpiry = 0;
 
 Adafruit_BME680 bme;
 
-// PMS5003 TX -> ESP8266 D5
-SoftwareSerial pmsSerial(D5, -1);
+// PMS5003 TX -> ESP8266 D7
+SoftwareSerial pmsSerial(D7, -1);
 
 bool bmeInitialized = false;
 bool authInitialized = false;
